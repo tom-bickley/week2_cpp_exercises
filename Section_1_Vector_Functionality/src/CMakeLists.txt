@@ -1,0 +1,7 @@
+add_library(vector_functions)
+target_sources(vector_functions PRIVATE vector_functions.cpp)
+target_include_directories(vector_functions PUBLIC ${CMAKE_SOURCE_DIR}/include)
+
+add_executable(vector_exercises)
+target_sources(vector_exercises PRIVATE exercise_main.cpp)
+target_link_libraries(vector_exercises PUBLIC vector_functions)
