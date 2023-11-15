@@ -18,10 +18,7 @@ class Reporter
         std::cout << "Destroying Reporter Object with ID: " << ID << std::endl;
     }
 
-    //add your function to set the smart pointer here
-
     private:
-    //you should add your smart pointer member here
     std::string ID;
 };
 
