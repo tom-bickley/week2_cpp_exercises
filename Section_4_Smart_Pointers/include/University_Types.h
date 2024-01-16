@@ -1,8 +1,6 @@
 #include <memory>
 #include <iostream>
 #include <string>
-#include <vector>
-#include <algorithm>
 
 using namespace std;
 
@@ -41,8 +39,6 @@ class Student
     // add a pointer to the department here
 };
 
-int Student::max_id = 0;
-
 class Department
 {
     public:
@@ -55,18 +51,5 @@ class Department
 
     private:
     string name;
-    // add a vector of pointers to students here
+    // add a vector or map of pointers to students here
 };
-
-int main()
-{
-    // declare a department 
-
-    // declare a student
-
-    // set student's department
-
-    // add student to department list
-
-    return 0;
-}

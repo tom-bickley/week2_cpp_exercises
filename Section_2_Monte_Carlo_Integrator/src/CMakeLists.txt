@@ -1,2 +1,0 @@
-add_executable(monte_carlo_integrator)
-target_sources(monte_carlo_integrator PRIVATE MonteCarlo.cpp)

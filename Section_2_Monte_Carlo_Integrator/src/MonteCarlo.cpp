@@ -23,7 +23,7 @@ double IntegrateMonteCarlo3D(int n_points, double min, double max)
         if(InsideUnitSphere(x, y, z)) count++;
     }
 
-    return (double)count / n_points * VolCube;
+    return static_cast<double>(count) / n_points * VolCube;
 }
 
 

@@ -25,6 +25,6 @@ class Reporter
 
 int main()
 {
-
+    
     return 0;
 }

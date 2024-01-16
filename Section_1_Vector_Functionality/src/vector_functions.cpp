@@ -4,7 +4,7 @@
 
 // write your print vector function here
 
-int countMultiplesOfFive(//take a vector of ints here)
+int countMultiplesOfFive(/*take a vector of ints here*/)
 {
 
 }
