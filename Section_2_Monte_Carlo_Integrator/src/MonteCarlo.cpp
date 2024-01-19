@@ -10,6 +10,9 @@ bool InsideUnitSphere(double x, double y, double z)
 double IntegrateMonteCarlo3D(int n_points, double min, double max)
 {
     int count = 0;
+    // N.B. std::pow with integer arguments can be less efficient than
+    // writing the multiplication explicitly, so be careful about using it
+    // inside loops for example!
     double VolCube = std::pow((max - min), 3);
 
     //set up random number generator here
